@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 700px;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.panel{
+    width: 10%;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 700ms ease-in;
+}
+
+.active{
+    width: 50%;
+}
+h1{
+    font-size: 20px;
+    
+}
+#panel-1{
+    background-image: url('./src/23-photography-nN2oZ-PzKrs-unsplash.jpg');
+}
+#panel-2{
+    background-image: url('./src/donald-oliver-uM4lQmRieos-unsplash.jpg');
+}
+#panel-3{
+    background-image: url('./src/mahsa-habibi-EwhUySEXLmw-unsplash.jpg');
+}
+#panel-4{
+    background-image: url('./src/simeon-asenov-r6I1c2M9HBw-unsplash.jpg');
+}
+#panel-5{
+    background-image: url('./src/simeon-asenov-wByMf63Weac-unsplash.jpg');
+}
+#panel-6{
+    background-image: url('./src/venus-major-fIaIOt1CobM-unsplash.jpg');
+}
+h1{
+    color: antiquewhite;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
