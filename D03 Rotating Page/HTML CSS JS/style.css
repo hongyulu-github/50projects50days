@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Lato', sans-serif;
+    background-color:#333;
+    color:#222;
+    margin: 0;
+    overflow-x: hidden;
+}
+.article_container{
+    background-color: #fafafa;
+    width: 100vw;
+    padding: 50px;
+    
+    
+    
+}
+.article_container.rotate{
+    transform: rotate(-20deg);
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.circle_container{
+    position: fixed;
+    top: -100px;
+    left:-100px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #be882a;
+    transition: transform 0.5s linear;
+}
+.circle.rotate {
+    transform: rotate(-70deg);
+    
+}
+.circle button{
+    cursor: pointer;
+    height: 100px;
+    border: 0;
+    font-size: 26px;
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    left:60%;
+}
+
+
+.circle button#close{
+    top:60%;
+    left:50%;
+    transform: rotate(90deg);
+    transform-origin:top left ;
+}
+
+
+nav{
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: -100;
+    color: #fafafa;
+}
+
+
+
