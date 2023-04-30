@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+h1{
+    margin: 10px;
+}
+.box{
+    background-color: khaki;
+    margin:10px;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(4000px);
+    transition: transform 0.4s ease;
+    text-align: center;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3); ;
+    color:azure;
+    font-size: 100px;
+   
+  
+    
+}
+.box:nth-of-type(odd) {
+    transform: translateX(-4000px);
+  }
+.box.show{
+    transform: translateX(0px);
+}
